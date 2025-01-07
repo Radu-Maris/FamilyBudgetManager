@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 1500);
     
     setTimeout(() => {
-      window.location.href = "Login.html";
+      window.location.href = "ChildMainMenu.html";
     }, 1600);
     
   });
