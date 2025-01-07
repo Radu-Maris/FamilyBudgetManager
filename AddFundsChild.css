@@ -1,0 +1,132 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Source Serif Pro", serif;
+    background-color: #6D72C3; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .page-title {
+    text-align: center;
+    font-size: 40px;
+    color: #1D1128; 
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .main-container {
+    background-color: #1D1128;
+    border-radius: 39px 39px 0 0;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative; 
+  }
+  
+
+  .top-circle {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+  
+    width: 120px;      
+    height: 120px;
+    background-color: #6D72C3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .family-title {
+    font-size: 24px;
+    color: #E5D4ED; 
+    margin-top: 80px; 
+    margin-bottom: 20px;
+  }
+  
+
+  .chart-circle {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 30px; 
+  }
+  
+  .chart-svg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .spent-label {
+    font-size: 22px;
+    color: #E5D4ED;
+    margin: 0;
+  }
+  .spent-amount {
+    font-size: 28px;
+    font-weight: bold;
+    color: #E5D4ED;
+    margin-bottom: 20px;
+  }
+  
+  .spend-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6D72C3;
+    border-radius: 12px;
+    padding: 12px 20px;
+    margin: 0 auto 15px;
+    width: 80%;
+    box-sizing: border-box;
+  }
+  .spend-name,
+  .spend-ron {
+    color: #1D1128;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .money-saved-btn {
+    display: block;
+    width: 80%;
+    background-color: #514F59;
+    color: #E5D4ED;
+    border: none;
+    border-radius: 12px;
+    padding: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 30px auto 20px;
+  }
+  .money-saved-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .back-btn {
+    display: block;
+    width: 80%;
+    background-color: #6D72C3;
+    color: #1D1128;
+    border: none;
+    border-radius: 12px;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  .back-btn:hover {
+    opacity: 0.9;
+  }
+  

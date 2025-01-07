@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Source Serif Pro", serif;
+    background-color: #6D72C3; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .page-title {
+    text-align: center;
+    font-size: 40px;
+    color: #1D1128;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .main-container {
+    background-color: #1D1128;  
+    border-radius: 39px 39px 0 0; 
+    flex: 1;                     
+    padding: 30px 20px;
+    box-sizing: border-box;
+  }
+  
+  .trend-card {
+    background-color: #2C2133;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px; 
+  }
+
+  .card-title {
+    font-size: 24px;
+    color: #E5D4ED; 
+    margin-bottom: 20px;
+  }
+  
+  .chart-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+  }
+  
+  .back-button {
+    display: block;
+    width: 100%;
+    background-color: #6D72C3; 
+    color: #1D1128;           
+    border: none;
+    border-radius: 12px;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .back-button:hover {
+    opacity: 0.9;
+  }
+  

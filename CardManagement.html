@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Card Management</title>
+  <link rel="stylesheet" href="CardManagement.css" />
+</head>
+<body>
+  <h1 class="page-title">Card Management</h1>
+
+  <div class="main-container">
+    <div class="field-group">
+      <label class="field-label" for="cardNumberInput">Card Number</label>
+      <input 
+        type="text" 
+        id="cardNumberInput" 
+        class="field-input" 
+        placeholder="e.g., 1234 5678 9012 3456"
+      />
+    </div>
+
+    <div class="field-group">
+      <label class="field-label" for="cardholderInput">Cardholder Name</label>
+      <input 
+        type="text" 
+        id="cardholderInput" 
+        class="field-input" 
+        placeholder="e.g., John Doe"
+      />
+    </div>
+
+    <div class="row-fields">
+      <div class="field-group small-field">
+        <label class="field-label" for="expirationInput">Expiration Date</label>
+        <div class="input-row">
+          <input 
+            type="text" 
+            id="expirationInput" 
+            class="row-input" 
+            placeholder="MM/YY"
+          />
+          <span class="row-addon">&#128197;</span>
+        </div>
+      </div>
+
+      <div class="field-group small-field">
+        <label class="field-label" for="cvcInput">CVC</label>
+        <input 
+          type="text" 
+          id="cvcInput" 
+          class="field-input cvc-input" 
+          placeholder="XXX"
+        />
+      </div>
+    </div>
+
+    <div class="button-row">
+      <button class="cancel-btn">Cancel</button>
+      <button class="submit-btn">Submit</button>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>New Event</title>
+  <link rel="stylesheet" href="AddEvent.css" />
+</head>
+<body>
+  <h1 class="page-title">New Event</h1>
+
+  <div class="form-card">
+
+    <div class="field-group">
+      <label class="field-label" for="nameInput">Name:</label>
+      <div class="input-row">
+        <input id="nameInput" type="text" class="row-input" />
+      </div>
+    </div>
+
+    <div class="field-group">
+      <label class="field-label" for="sumInput">Sum:</label>
+      <div class="input-row">
+        <input id="sumInput" type="text" class="row-input" />
+        <span class="row-addon">RON</span>
+      </div>
+    </div>
+
+    <div class="field-group">
+      <label class="field-label" for="dateInput">Date:</label>
+      <div class="input-row">
+        <input id="dateInput" type="text" class="row-input" />
+        <span class="row-addon">&#128197;</span>
+      </div>
+    </div>
+
+    <div class="field-group">
+      <label class="field-label" for="descInput">Description:</label>
+      <div class="input-row">
+        <input id="descInput" type="text" class="row-input" />
+      </div>
+    </div>
+
+    <button class="add-btn">Add Event</button>
+  </div>
+
+  <button class="back-btn" onclick="window.location.href='Events.html'" >Back</button>
+</body>
+</html>
