@@ -1,5 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     const animation = document.getElementById("animation");
+    
+    animation.offsetHeight;
+    
     animation.classList.add("frame-2");
   
     setTimeout(() => {

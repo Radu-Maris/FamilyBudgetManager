@@ -1,5 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   const animation = document.getElementById("animation");
+  
+  animation.offsetHeight;
+  
   animation.classList.add("frame-2");
 
   setTimeout(() => {
@@ -7,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }, 1500);
   
   setTimeout(() => {
-    window.location.href = "Login.html";
+    window.location.href = "ChildMainMenu.html";
   }, 1600);
   
 });
