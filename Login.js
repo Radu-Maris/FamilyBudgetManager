@@ -24,6 +24,12 @@ document.addEventListener("DOMContentLoaded", () => {
         errorMessage = "Email must be in the format *@gmail.com.";
       }
   
+      if (email === "copil@gmail.com") {
+        localStorage.setItem('loggedInUser', email);
+      } else {
+        localStorage.removeItem('loggedInUser');
+      }
+
       if (errorMessage) {
         alert(errorMessage);
         window.location.href = "Login.html";
