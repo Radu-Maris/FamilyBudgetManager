@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
         alert(errorMessage);
         window.location.href = "ChildFunds.html";
     } else {
-        window.location.href = "FundsAssigned.html";
+        window.location.href = "FundsSent.html";
       }
     });
   });
